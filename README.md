@@ -1,20 +1,38 @@
-<h1>Backend of a basic E-Commerce application</h1>
+# Backend of Basic E-Commerce Application
 
-<strong>Technologies used</strong> - Node, Express, JWT and MongoDB.
+This is the backend for a basic e-commerce application built with Node, Express, JWT, and MongoDB. The purpose of this project is to practice using these technologies for the first time.
 
-<strong>Intention</strong> - I create this basic application to practice these technologies for first time. 
+## Features - v1 (First Commit)
 
-<strong>Features</strong> - v1 (first commit) -
-<ol>
-  <li>Signup as user or admin.</li>
-  <li>Login using Token based Authentication.(used JWT)</li>
-  <li>Admin can login and create new categories.</li>
-  <li>User can view categories.</li>
-</ol>
+- **Signup**: Users can sign up as either a regular user or an admin.
+- **Login**: Token-based authentication using JWT for secure login.
+- **Admin Features**:
+  - Admin can log in and create new product categories.
+- **User Features**:
+  - Users can view available categories.
+  
+## Technologies Used
 
-<strong>Working on</strong>
-<ol>
-  <li>Admin should able to create new items under each categories.</li>
-  <li>User should able to create Cart.</li>
-  <li>User should able to add and delete items from the cart.</li>
-</ol>
+<div align="center">
+<br/>
+<img src='https://skillicons.dev/icons?i=js,express,nodejs,mongodb' ></img>
+</div>
+<br/>
+
+- **Libraries**: 
+  - `jsonwebtoken` for JWT authentication
+  - `mongoose` for MongoDB interaction
+  - `bcryptjs` for password hashing
+
+## Features (Working On)
+
+- **Admin**:
+  - Admin should be able to create new items under each category.
+- **User**:
+  - Users should be able to create a cart to store items.
+  - Users should be able to add or delete items from their cart.
+
+## Contributing
+
+Feel free to fork the project, create issues, and submit pull requests. All contributions are welcome!
+
